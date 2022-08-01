@@ -2,3 +2,7 @@
 
     padding: 20px;
 }
+
+#max {
+    max-height: 500px;
+}
