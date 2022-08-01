@@ -1,8 +1,9 @@
 .row{
 
     padding: 20px;
+
 }
 
-#max {
+.text-center {
     max-height: 500px;
 }
