@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="container">
+    <div class="logo">
+      <img src="../../../assets/APLogo.png" id="logoAP" />
+    </div>
+    <div class="redes">
+      <a href="http://www.linkedin.com" target="_blank"
+        ><img src="../../../assets/linkedin.png" id="linkedin"
+      /></a>
+      <a href="http://www.twitter.com" target="_blank"
+        ><img src="../../../assets/twitter.png" id="twitter"
+      /></a>
+      <a href="http://www.instagram.com" target="_blank"
+        ><img src="../../../assets/instagram.png" id="instagram"
+      /></a>
+      <a href="http://www.github.com" target="_blank"
+        ><img src="../../../assets/github.png" id="github"
+      /></a>
+      <a href="http://www.facebook.com" target="_blank"
+        ><img src="../../../assets/facebook.png" id="facebook"
+      /></a>
+    </div>
+    <div class="login">
+      <button
+        type="button"
+        class="btn btn-danger"
+        (click)="login()"
+        *ngIf="!isLogged"
+      >
+        Iniciar Sesión
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger"
+        (click)="onLogOut()"
+        *ngIf="isLogged"
+      >
+        Cerrar Sesión
+      </button>
+    </div>
+  </div>
+</div>
